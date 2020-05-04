@@ -1,8 +1,23 @@
 <html>
   <head>
+     <styles>
+       .crop {
+          width: 460px;
+          height: 300px;
+          overflow: hidden;
+        }
+
+        .crop img {
+            width: 460px;
+            height: 300px;
+            margin: -75px 0 0 -100px;
+        }
+     </styles>
   </head>
   <body style="max-width: 600px; margin: auto;">
-    <img src="indranil.jpg" width="460" height="460"></img>
+    <div class="crop">
+      <img src="indranil.jpg" width="460px" height="460px" />
+    </div>
     <H1>Hi, there</H1>
   </body>
 </html>
